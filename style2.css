@@ -1,0 +1,44 @@
+
+
+body
+{
+background: url(s4.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+backdrop-filter: blur(3px);
+background-size: cover;
+
+
+}
+
+
+ul li{
+    float: left;
+    width: 100px;
+    height: 40px;
+    color: rgb(241, 90, 3);
+    text-align: center;
+    list-style: none;
+    
+}
+
+nav{
+    top: 22px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    
+
+}
+
+
+.hero{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(
+        rgba(235, 235, 241, 0.534),
+        rgba(89, 125, 128, 0.438));
+    position: fixed;
+    display: flex;
+    justify-content: right;
+}
