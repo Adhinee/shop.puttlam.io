@@ -73,7 +73,7 @@ input:hover{
     width: 500px;
     height: 400px;
     top: 200px;
-    left: 850px;
+    left: 50%;
     position: absolute;
 }
 
@@ -86,7 +86,8 @@ form{color: rgb(0, 0, 0);
     height: 400px;
     text-align: center;
     font-size: larger;
-    border-radius: 10px;}
+    border-radius: 10px;
+    left:50%;}
     
 
 button{
