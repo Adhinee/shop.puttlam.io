@@ -89,9 +89,10 @@ form{color: rgb(0, 0, 0);
     left:50%;
 Float:center;}
     
-@media only screen and (max-width: 800px){.box{
-    width: 200px;
-    height: 200px;
+@media only screen and (max-width: 800px){
+.box{
+    width: auto;
+    height: auto;
     
     left: 50%;
     position: absolute;
@@ -102,13 +103,17 @@ form{color: rgb(0, 0, 0);
     padding: 10px;
     background: rgb(215, 221, 223);
     display: inline;
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: auto;
     text-align: center;
     font-size: larger;
     border-radius: 10px;
    Float:center;}
     }
+Ul li{display:flex;
+Padding:10px;}
+Ul li a{display:flex;
+Padding:10px;}
 button{
     background-color: rgb(49, 47, 47);
     color: rgb(255, 255, 255);
