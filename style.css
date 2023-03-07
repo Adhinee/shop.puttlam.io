@@ -31,7 +31,7 @@ h1
 Body
     {
     background: url(s4.jpg);
-    background-attachment: fixed;
+    
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -107,8 +107,7 @@ form{color: rgb(0, 0, 0);
     text-align: center;
     font-size: larger;
     border-radius: 10px;
-    left:50%;
-Float:center;}
+   Float:center;}
     }
 button{
     background-color: rgb(49, 47, 47);
