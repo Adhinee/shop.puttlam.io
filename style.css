@@ -70,7 +70,7 @@ input:hover{
 }
 .box{
     width: 200px;
-    height: 200px;
+    height: 300px;
     top: 50%;
    
    
@@ -91,7 +91,7 @@ form{color: rgb(0, 0, 0);
 @media only screen and (max-width:700px){
 .box{
     width: 200px;
-    height: 200px;
+    height: 300px;
     Float:left;
     
     position: absolute;
@@ -155,8 +155,8 @@ p  {
 
 nav{
     top: 22px;
-    display: inline-flexbox;
-    align-items: right;
+    display: flex;
+    align-items: left;
     justify-content: space-evenly;
     text-decoration: none;
     color: rgb(216, 0, 0);
@@ -165,7 +165,7 @@ nav{
 }
 
 ul li{
-    float: left;
+    float: right;
     width: 200px;
     height: 40px;
     opacity: 0.9;
@@ -174,11 +174,11 @@ ul li{
     
     color: rgb(255, 255, 255);
     line-height: 40px;
-    text-align: center;
+    text-align: right;
     font-size: 20px;
     margin-right: 2px;
     
-    background-color: black;
+    background-color: red;
     color: white;
     
 }
@@ -226,9 +226,7 @@ ul li:hover{
     
     color: rgb(255, 255, 255);
 }
-ul li ul li {
-    display: none;
-}
+
 ul{
     margin: 0px;
     padding: 0px;
