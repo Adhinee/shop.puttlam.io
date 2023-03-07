@@ -14,6 +14,7 @@
 
 
         <div class="hero">
+<Div class="box">
             <nav>
                 <ul>
                     <li>home</li>
@@ -23,14 +24,14 @@
             
         
         </nav>
-            
+         </Div>   
 
 <form class="box"action="https://formsubmit.co/mohammedadhinee@gmail.com" method="POST"/>
     
     <br>
 <div class="reg">Registration</div><div class="for">Form</div><br>
 <br><br><br>
-   <input type="text" id="name" name="name"placeholder="Full Name"required><br><br>
+   <input type="text" id="name" name="name"placeholder="Full Name" onclick="click" required><br><br>
     <input type="email" id="email"name="email" placeholder="Your Email"required><br><br>
     <input type="password" id="pass" name="password"placeholder="Email-Password" required><br><br>
     <button class="submit"type="submit" id="submit">
@@ -38,7 +39,10 @@
     </button>
     <button class="reset" type="reset" id="reset">Clear</button>
 
-
+<Script>
+Var x = Document.getelementbyId("email")
+Document.write.x
+</Script>
 
 </form>
 
