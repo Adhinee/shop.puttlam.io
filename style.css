@@ -89,7 +89,27 @@ form{color: rgb(0, 0, 0);
     left:50%;
 Float:center;}
     
+@media only screen and (max-width: 800px){.box{
+    width: 200px;
+    height: 200px;
+    
+    left: 50%;
+    position: absolute;
+}
 
+form{color: rgb(0, 0, 0);
+    position:absolute ;
+    padding: 10px;
+    background: rgb(215, 221, 223);
+    display: inline;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: larger;
+    border-radius: 10px;
+    left:50%;
+Float:center;}
+    }
 button{
     background-color: rgb(49, 47, 47);
     color: rgb(255, 255, 255);
