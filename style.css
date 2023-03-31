@@ -105,11 +105,20 @@ body{
   right: 5%;
 }
 
-p{
+#p1{
   position: absolute;
-  font-size: xx-large;
-  top: 15px;
+  font-size: 95px;
+  top: 350px;
   left: 45px;}
+
+
+#devolopment{
+
+  position: absolute;
+  font-size: 95px;
+  top: 470px;
+  left: 405px;
+  }
 
 #ss2-si1 ,#ss2-si2,#ss2-si3{
   position: relative;
