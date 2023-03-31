@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Flower Garden</title>
+</head>
+<body>
+    <div class="bck"></div>
+    <div class="main">
+        <div class="back">
+
+            
+        <ul>
+
+
+            <li >
+                <a href="#" id="home" onclick="clkup()">
+                    Home
+                </a>
+            </li>
+
+
+            <li>
+                <a href="#">
+                    Login
+                </a>
+            </li>
+
+
+            <li>
+                <a href="#">
+                    Cart
+                </a>
+            </li>
+
+
+        </ul>
+
+
+        </div>
+
+
+
+        <nav></nav>
+        <p id="p1">
+            Enterprise Apps </p><br><div id="devolopment">Devolopment</div>
+        
+
+<div class="slideshow1" id="slideshow1">
+    <p ></p>
+        <img id="imgg"  src="i1.jpg ">
+        <a class="prev" onclick="clkdown()">&#10094;</a>
+        <a class="next" onclick="clkup()">&#10095;</a>
+       
+</img>
+</div>
+</div>
+    <div class="slideshow2 " style="display: flex;">
+    <img id="ss2-si1" src="i1.jpg">
+    
+   
+    <img id="ss2-si2" src="i2.jpg"  >
+            
+            <a class="prev2" onclick="clkdown2()">&#10094;</a>
+        
+            <a class="next2" onclick="clkup2()">&#10095;</a>
+       
+    <img id="ss2-si3" src="i3.jpg">
+</div>
+
+<script>
+var slideimg=['i1.jpg','i2.jpg','i3.jpg','i4.jpg','i5.jpg','i6.jpg','i7.jpg','i8.jpg','i9.jpg'];
+
+var index=0;
+var bar1=document.getElementById("bar1");
+var bar2=document.getElementById("bar2");
+var bar3=document.getElementById("bar3");
+var bar=[bar1, bar2, bar3];
+var n=1;
+var p2=document.getElementById("p2");
+var slideshow1=document.getElementById("slideshow1");
+var imgg=document.getElementById("imgg");
+
+
+
+
+
+function clkup(){
+    
+    imgg.src=slideimg[index];
+    
+    
+    index++;
+    if (index==slideimg.length){
+        index=0;
+    }
+}
+
+function clkdown(){
+    document.getElementById("imgg").src=slideimg[index];
+    
+    if (index==0){
+        index=slideimg.length;
+    }
+    
+    index--;
+}
+setInterval(clkup,3000);
+
+</script>
+
+<script>
+
+var ss2si1=document.getElementById("ss2-si1");
+
+var ss2si2=document.getElementById("ss2-si2");
+
+var ss2si3=document.getElementById("ss2-si3");
+
+var slideimg2=['i1.jpg','i2.jpg','i3.jpg','i4.jpg','i5.jpg','i6.jpg','i1.jpg','i2.jpg','i3.jpg','i4.jpg','i5.jpg','i6.jpg'];
+var index2=1;
+var index3=slideimg2.length;
+function clkup2(){
+    ss2si1.src=slideimg2[index2];
+    ss2si2.src=slideimg2[index2+1];
+    ss2si3.src=slideimg2[index2+2];
+    index2+=n;
+    if(index2+3==slideimg2.length){
+        index2=0;
+    }
+
+}
+setInterval(clkup2,3000);
+function clkdown2(){
+    
+    ss2si1.src=slideimg2[index3-3];
+    ss2si2.src=slideimg2[index3-2];
+    ss2si3.src=slideimg2[index3-1];
+    index3-=1;
+    if(index3==3){
+        index3=slideimg2.length;
+    }
+
+}
+
+
+
+
+
+</script>
+
+        
+   
+
+
+</body>
+</html>
