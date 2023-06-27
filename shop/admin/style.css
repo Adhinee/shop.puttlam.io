@@ -1,0 +1,125 @@
+
+.admin-nav{
+    background: radial-gradient(rgb(69, 132, 173),rgb(78, 152, 201));
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.admin-nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+p{
+    color: #ffffff;
+}
+.footer p{
+    color: #000000;
+}
+.footer{ 
+    background: radial-gradient(rgb(69, 132, 173),rgb(78, 152, 201));
+    text-align: center;
+    padding: 20px;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.col{
+    background-color: #494849;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.col p{
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+}
+.col img{
+    width: 150px;
+    
+
+}
+.butt {
+    text-align: center;
+    display: block;
+}
+.btn{
+    display: inline-block;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+    text-align: center;
+}
+button{
+    height: 0px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn:hover{
+    background: rgb(70, 8, 18);
+
+}
+@media only screen and (max-width: 600px){
+
+    nav ul{
+        display: grid;
+    
+        list-style-type: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 2px;
+    }
+    .col-3 img{
+        width:300px;
+        height: 300px;
+    }
+    .row{
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        margin: 25px;
+    }
+}
