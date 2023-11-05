@@ -1,0 +1,80 @@
+body{
+    color: rgb(0, 153, 255);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", "Open Sans", Arial, sans-serif;;
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+}
+a{
+list-style-type:none; 
+text-decoration:none;
+color:white;
+}
+* {
+    box-sizing: inherit;
+}
+.nav-bar{
+    line-height: 130%;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.nav-bar h2{
+    font-weight: normal;
+    color: rgba(255,255,255,.8);
+    word-wrap: break-word;
+    margin: 0;
+    font-size: 180%;
+    padding: 10px 12px;
+    font-family: "Helvetica Neue";
+    text-align: center;
+    width: 100%;
+}
+.btn{
+    position: absolute;
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+
+
+}
+
+
+button{
+    border-radius: 10px;
+    height: 25px;
+    background-color: rgb(105, 105, 105);
+    color: white;
+
+}
+.heading{
+    text-align: center;
+}
+
+.heading h3{
+    padding-top: 10px;
+    background-color: rgb(105, 105, 105);
+    font-weight: normal;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    width: 90%;
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.btn2{
+position: absolute;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
