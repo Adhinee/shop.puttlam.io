@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(3, 9, 27);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.nav-bar{
+    overflow: hidden;
+}
+.nav-bar ul{
+    float: right;
+    top: 0;
+    left: 0;
+    
+}
+
+.nav-bar ul li{
+    list-style-type: none;
+    float: left;
+}
+
+.nav-bar ul li a{
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+.nav-bar button{
+    color: white;
+    box-shadow: none;
+    border: 0;
+    background-color: transparent;
+    font-size: large;
+}
+
+.nav-bar button:hover{
+    text-decoration: underline;
+    box-shadow: none;
+    border: 0;
+    color: rgb(240, 68, 0);
+}
+
+
+.box0{
+    position: relative;
+    text-align: center;
+}
+
+.nav-box{
+    background-color: rgb(35, 54, 54);
+    padding: 10px ;
+    margin-bottom: 55px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 0% 50%;
+}
+
+.nav-box .line2{
+    height: 100%;
+    border: solid 2px;
+    width: 0;
+}
+
+.day-box{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(42, 240, 2);
+    display: block;
+    margin-bottom: 33px;
+    
+}
+
+.day-btn{
+
+    background-color: rgb(255, 60, 0);
+    color: rgb(255, 255, 255);
+    border: 0;
+    height: 50px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: larger;
+}
+.day-btn:hover{   
+
+}
+
+.day-btn:hover{
+
+}
+
+.sign-box{
+
+
+}
+
+.sign-head{
+    color: rgb(42, 240, 2);
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 33px;
+}
+
+.sign-btn{
+    background-color: rgb(255, 60, 0);
+    color: rgb(255, 255, 255);
+    border: 0;
+    height: 50px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: larger;
+}
+
+.heaad{
+    padding-top: 55px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub{
+    position: relative;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+    background-image: linear-gradient(to right,rgb(59, 204, 248),rgb(228, 35, 186));
+    color: white;
+    left: 50%;
+    text-align: center;
+    width: 150%;
+    height: 25%;
+    padding: 8px 25px;
+    border-radius: 15px;
+}
+
+.box2{
+    padding-top: 55px;
+}
+
+.box2 ul li{
+    display: inline;
+    width: 5px;
+}
+
+.line1{
+    box-sizing: border-box;
+    border: solid 1px rgb(87, 82, 82);
+    padding-top: 12px;
+    margin: 25px;
+}
+
+.notation{
+    padding-top: 65px;
+}
